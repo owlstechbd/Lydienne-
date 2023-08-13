@@ -1,0 +1,46 @@
+@media screen and (max-width: 720px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .geeks img{
+        width: 70%;
+    }
+    .headers{
+        padding-right: 50px;
+    }
+    .white-color{
+        font-size: 14px;
+    }
+    .next-previous ul li {
+        margin: 0 5px;
+    }
+    .menu__btn{
+        right: -45px;
+    }
+    .haeder-menu-list ul li {
+        margin: 0 5px;
+    }
+    .menu__box{
+        width: 100%;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .project-details{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .project-photo{
+        width: 100%;
+    }
+    
+
+}
+
