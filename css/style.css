@@ -33,7 +33,7 @@ p{
 .section-padding{
 	width: 100%;
 	display: flex;
-	padding: 100px 0;
+	padding: 100px 30px;
 }
 .headers{
 	padding-right: 50px;
@@ -222,6 +222,7 @@ p{
   }
 
 .portfolio{
+	width: 100%;
 	background: #010101;
 }
 .portfolio-box{
@@ -241,9 +242,21 @@ p{
 	display: flex;
 	align-items: flex-end;
 }
-.project-details{
+.dis-start{
+	display: flex;
+	align-items: flex-start;
+}
+.por-detailies{
 	width: 100%;
-	color: #fff;
+}
+.project-details {
+    width: 100%;
+    color: #fff;
+}
+.project-details2 {
+    width: 100%;
+    color: #fff;
+    margin-top: -48px;
 }
 .project-title{
 	color: #FF0000;
@@ -266,8 +279,8 @@ p{
 	color:#809e1a;
 }
 .owl-nav{
-	top: -70px;
-	right: 0;
+	bottom:-70px;
+	left: 0;
 	position: absolute;
 }
 .owl-nav button{
@@ -281,6 +294,8 @@ p{
 }
 .video{
 	width: 100%;
+	height: 350px;
+
 }
 .video iframe{
 	margin-top: -50px;
