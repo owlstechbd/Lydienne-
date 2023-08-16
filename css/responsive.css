@@ -11,7 +11,13 @@
         width: 70%;
     }
     .headers{
-        padding-right: 50px;
+        padding-right: 28px;
+    }
+    .header{
+        padding-left: 10px;
+    }
+    .audio-mix{
+        width: 100%;
     }
     .white-color{
         font-size: 14px;
