@@ -33,6 +33,11 @@ p{
 .section-padding{
 	width: 100%;
 	display: flex;
+	padding: 50px 30px;
+}
+.section-padding2{
+	width: 100%;
+	display: flex;
 	padding: 100px 30px;
 }
 .headers{
@@ -43,6 +48,9 @@ p{
 	padding-top: 15px;
 	display: flex;
 	justify-content: space-between;
+}
+.next-list{
+	padding-right: 40px;
 }
 .next-previous ul{
 	display: flex;
@@ -265,8 +273,7 @@ p{
 .project-photo {
 	width: 100%;
 	position: relative;
-	margin: 20px auto;
-	padding: 80px 0 50px;
+	
 }
 
 .item img{

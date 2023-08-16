@@ -16,6 +16,9 @@
     .header{
         padding-left: 10px;
     }
+    .next-list{
+       padding-right: 20px;
+    }
     .audio-mix{
         width: 100%;
     }
