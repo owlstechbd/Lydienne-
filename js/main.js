@@ -13,6 +13,13 @@ $(document).ready(function() {
       }
     }
   });
+  $(".custom-navigation .prev").click(function () {
+    $(".owl-carousel").trigger("prev.owl.carousel");
+ });
+
+ $(".custom-navigation .next").click(function () {
+    $(".owl-carousel").trigger("next.owl.carousel");
+ });
 });
 
 

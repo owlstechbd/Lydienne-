@@ -290,15 +290,7 @@ p{
 	left: 0;
 	position: absolute;
 }
-.owl-nav button{
-	font-size: 40px!important;
-	outline: none!important;
-	background:#fff!important;
-	height:40px;
-	line-height:0!important;
-	width:40px;
-	color: #000!important;
-}
+
 .video{
 	width: 100%;
 	height: 350px;
@@ -312,6 +304,9 @@ p{
 	width: 100%;
 	height: 100vh;
 	color: #fff;
+}
+.about-content{
+	width: 40%;
 }
 .about h2{
 	color: #FF0000;
@@ -330,7 +325,20 @@ p{
 	margin-bottom: 10px;
 }
 
-
+.custom-navigation button{
+	background: transparent;
+	border: none;
+	margin-top: 10px;
+	
+}
+.custom-navigation button:focus{
+	outline: none;
+}
+.custom-navigation button i{
+	color: #fff;
+	font-size: 40px;
+	margin-right: 20px;
+}
   .below-text{
 	width: 60%;
 	margin: 40px auto;
