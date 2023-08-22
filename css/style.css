@@ -206,13 +206,16 @@ p{
 	transition-duration: .25s;
   }
   .menu__box li a{
-	border-radius: 25px;
 	color: #Fff;
 	margin: 0;
 
 	padding: 0;
   }
-
+.bio{
+	margin: 15px;
+	padding: 20px;
+	background: #fff;
+}
   .menu__box li:hover {
 	background: #FF0000;
   }
@@ -331,12 +334,14 @@ p{
 	margin-top: 10px;
 	
 }
+.custom-navigation img{
+	height: 20px;
+}
 .custom-navigation button:focus{
 	outline: none;
 }
-.custom-navigation button i{
+.custom-navigation button img{
 	color: #fff;
-	font-size: 40px;
 	margin-right: 20px;
 }
   .below-text{
